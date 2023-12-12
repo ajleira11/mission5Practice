@@ -1,0 +1,26 @@
+version: "3"
+services:
+  db:
+    image: mongo
+    expose:
+      - 27017
+    volumes:
+      - db-volume:/data/db
+    ports:
+      - "27017:27017"
+  server:
+    build:
+      context: ./server
+    environment:
+      - MONGO_URI=mongo:/db:27017/mongo # name of image in database
+    ports:
+      - 5001
+      - 9229
+    depends_on:
+      - db
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    restart: on-failure
+volumes:
+  db-volume:
