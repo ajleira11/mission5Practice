@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Blue Glasses",
+    "description": "The other dogs will be blue with envy over these cool glasses",
+    "price": 10,
+    "discount_amount": 0,
+    "product_category": "Accessories",
+    "product_image": "dog_01.png"
+  },
+  {
+    "name": "Brown Glasses",
+    "description": "The classic brown acrylic look",
+    "price": 20,
+    "discount_amount": 0,
+    "product_category": "Accessories",
+    "product_image": "dog_02.png"
+  },
+  {
+    "name": "Green Glasses",
+    "description": "Be groovy in green",
+    "price": 15,
+    "discount_amount": 0,
+    "product_category": "Accessories",
+    "product_image": "dog_03.png"
+  },
+  {
+    "name": "Red Hat",
+    "description": "Every dog needs a lucky red hat",
+    "price": 30,
+    "discount_amount": 0,
+    "product_category": "Hats",
+    "product_image": "dog_04.png"
+  },
+  {
+    "name": "Marching Hat",
+    "description": "Lead the marching band with this black hat with gold trim",
+    "price": 40,
+    "discount_amount": 5,
+    "product_category": "Hats",
+    "product_image": "dog_05.png"
+  },
+  {
+    "name": "Black Wide Brim Hat",
+    "description": "Keep the sun off your dog while looking stylish",
+    "price": 5,
+    "discount_amount": 0,
+    "product_category": "Hats",
+    "product_image": "dog_06.png"
+  },
+  {
+    "name": "Red Narrow Brim Hat",
+    "description": "People will think your pooch stole grandads hat",
+    "price": 100,
+    "discount_amount": 10,
+    "product_category": "Hats",
+    "product_image": "dog_07.png"
+  },
+  {
+    "name": "White Brim Hat",
+    "description": "Stylish but good luck keeping this white hat clean",
+    "price": 70,
+    "discount_amount": 15,
+    "product_category": "Hats",
+    "product_image": "dog_08.png"
+  },
+  {
+    "name": "Blue Brim Hat",
+    "description": "Wide enough to cover your dogs ears from the hard sun",
+    "price": 10,
+    "discount_amount": 0,
+    "product_category": "Hats",
+    "product_image": "dog_09.png"
+  },
+  {
+    "name": "Orange Marching Hat",
+    "description": "Your pooch can now lead the band on to the field",
+    "price": 20,
+    "discount_amount": 0,
+    "product_category": "Hats",
+    "product_image": "dog_10.png"
+  },
+  {
+    "name": "Superman Outfit",
+    "description": "Its a bird, no its a plane, no its Super Dog",
+    "price": 15,
+    "discount_amount": 0,
+    "product_category": "Party outfits",
+    "product_image": "dog_11.png"
+  }
+]

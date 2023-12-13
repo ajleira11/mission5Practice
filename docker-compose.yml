@@ -3,7 +3,7 @@ services:
   db:
     image: mongo
     expose:
-      - 27017
+      - "27017"
     volumes:
       - db-volume:/data/db
     ports:
@@ -12,10 +12,10 @@ services:
     build:
       context: ./server
     environment:
-      - MONGO_URI=mongo:/db:27017/mongo # name of image in database
+      - MONGO_URI=mongodb://db:27017/mongo
     ports:
-      - 5001
-      - 9229
+      - "5001:5001"
+      - "9229:9229"
     depends_on:
       - db
     volumes:

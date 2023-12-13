@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "My server",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
     "test": "test",
-    "start:dev": "nodemon --inspect=0.0.0.0:9229 index.js"
+    "start:dev": "nodemon --inspect=0.0.0.0:9229 index.cjs"
   },
   "author": "Ariel Amano",
   "license": "ISC",
