@@ -22,5 +22,6 @@ services:
       - ./server:/app
       - /app/node_modules
     restart: on-failure
+
 volumes:
   db-volume:
